@@ -1,7 +1,0 @@
-{
-  "parent": "shyrium:custom/solar_pickaxe",
-  "textures": {
-    "0": "shyrium:blocks/solar_pickaxe",
-    "particle": "shyrium:items/hydrexium_coeur"
-  }
-}
