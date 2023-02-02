@@ -4,7 +4,7 @@
       "name": "Shyriumtab",
       "type": "tab",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "shyriumtab"
     }
@@ -18,7 +18,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "gui",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "shyrium",

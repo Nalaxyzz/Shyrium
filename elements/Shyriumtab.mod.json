@@ -4,7 +4,7 @@
   "definition": {
     "name": "Shyrium",
     "icon": {
-      "value": "CUSTOM:Test"
+      "value": "Blocks.NETHER_GOLD_ORE"
     },
     "showSearch": false
   }
