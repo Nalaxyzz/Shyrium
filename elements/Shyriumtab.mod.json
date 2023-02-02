@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Shyrium",
+    "icon": {
+      "value": "CUSTOM:Test"
+    },
+    "showSearch": false
+  }
+}
