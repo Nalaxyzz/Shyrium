@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
+import net.mcreator.shyrium.item.ShyriumStaffItem;
 import net.mcreator.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class ShyriumtabItemGroup extends ShyriumModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.NETHER_GOLD_ORE);
+				return new ItemStack(ShyriumStaffItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

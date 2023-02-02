@@ -1,0 +1,7 @@
+{
+  "parent": "shyrium:custom/shyrium_staff",
+  "textures": {
+    "0": "shyrium:blocks/shyrium_staff",
+    "particle": "shyrium:items/shyrium_core"
+  }
+}

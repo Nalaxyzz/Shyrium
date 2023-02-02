@@ -7,12 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyriumtab"
+    },
+    {
+      "name": "ShyriumStaff",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_staff",
+      "path": "~/item"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.shyrium.shyrium_staff": "Shyrium Staff",
       "itemGroup.tabshyriumtab": "Shyrium"
     }
   },
@@ -38,13 +48,17 @@
       {
         "name": "Procedure",
         "children": []
+      },
+      {
+        "name": "Craft",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "shyrium",
-    "modName": "SHYRIUM",
-    "version": "1.0.0",
+    "modName": "Shyrium",
+    "version": "0.0.2.2",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
