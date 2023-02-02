@@ -16,14 +16,64 @@
       "locked_code": false,
       "registry_name": "shyrium_staff",
       "path": "~/item"
+    },
+    {
+      "name": "ShyriumIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "VoidiumIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidium_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "MalachiteIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "path": "~/Block"
+    },
+    {
+      "name": "AzuriteIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azurite_ingot",
+      "path": "~/item"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.shyrium.voidium_ingot": "Voidium Ingot",
+      "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
-      "itemGroup.tabshyriumtab": "Shyrium"
+      "itemGroup.tabshyriumtab": "Shyrium",
+      "block.shyrium.test": "Test",
+      "item.shyrium.shyrium_ingot": "Shyrium Ingot",
+      "item.shyrium.azurite_ingot": "Azurite Ingot"
     }
   },
   "foldersRoot": {
@@ -58,7 +108,8 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.2",
+    "version": "0.0.2.3",
+    "description": "By Shyro Studio and Nalaxyzz ",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

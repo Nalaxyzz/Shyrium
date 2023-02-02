@@ -1,4 +1,9 @@
 {
+  "item.shyrium.voidium_ingot": "Voidium Ingot",
+  "item.shyrium.malachite_ingot": "Malachite Ingot",
   "item.shyrium.shyrium_staff": "Shyrium Staff",
-  "itemGroup.tabshyriumtab": "Shyrium"
+  "itemGroup.tabshyriumtab": "Shyrium",
+  "block.shyrium.test": "Test",
+  "item.shyrium.shyrium_ingot": "Shyrium Ingot",
+  "item.shyrium.azurite_ingot": "Azurite Ingot"
 }

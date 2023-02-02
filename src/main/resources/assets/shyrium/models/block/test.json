@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shyrium:blocks/malachite_ore",
+    "up": "shyrium:blocks/malachite_ore",
+    "north": "shyrium:blocks/malachite_ore",
+    "east": "shyrium:blocks/malachite_ore",
+    "south": "shyrium:blocks/malachite_ore",
+    "west": "shyrium:blocks/malachite_ore",
+    "particle": "shyrium:blocks/malachite_ore"
+  }
+}
