@@ -21,12 +21,12 @@ import java.util.List;
 import java.util.Collections;
 
 @ShyriumModElements.ModElement.Tag
-public class TestBlock extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:test")
+public class MalachiteoreBlock extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:malachiteore")
 	public static final Block block = null;
 
-	public TestBlock(ShyriumModElements instance) {
-		super(instance, 7);
+	public MalachiteoreBlock(ShyriumModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class TestBlock extends ShyriumModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("test");
+			setRegistryName("malachiteore");
 		}
 
 		@Override

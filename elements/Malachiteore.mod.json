@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Test",
+    "name": "Malachite Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -128,11 +128,17 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

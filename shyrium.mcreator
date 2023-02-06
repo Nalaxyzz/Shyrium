@@ -45,15 +45,6 @@
       "path": "~/item"
     },
     {
-      "name": "Test",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "path": "~/Block"
-    },
-    {
       "name": "AzuriteIngot",
       "type": "item",
       "sortid": 8,
@@ -61,6 +52,15 @@
       "locked_code": false,
       "registry_name": "azurite_ingot",
       "path": "~/item"
+    },
+    {
+      "name": "Malachiteore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachiteore",
+      "path": "~/Block"
     }
   ],
   "variable_elements": [],
@@ -71,7 +71,7 @@
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
       "itemGroup.tabshyriumtab": "Shyrium",
-      "block.shyrium.test": "Test",
+      "block.shyrium.malachiteore": "Malachite Ore",
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.azurite_ingot": "Azurite Ingot"
     }
@@ -108,7 +108,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.3",
+    "version": "0.0.2.4",
     "description": "By Shyro Studio and Nalaxyzz ",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
