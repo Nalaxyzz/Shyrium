@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shyrium:block/malachite_block"
+    }
+  }
+}
