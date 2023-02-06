@@ -61,6 +61,15 @@
       "locked_code": false,
       "registry_name": "malachiteore",
       "path": "~/Block"
+    },
+    {
+      "name": "Malachitegem",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachitegem",
+      "path": "~/item"
     }
   ],
   "variable_elements": [],
@@ -68,6 +77,7 @@
   "language_map": {
     "en_us": {
       "item.shyrium.voidium_ingot": "Voidium Ingot",
+      "item.shyrium.malachitegem": "Malachite gem",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
       "itemGroup.tabshyriumtab": "Shyrium",
@@ -108,7 +118,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.4",
+    "version": "0.0.2.5",
     "description": "By Shyro Studio and Nalaxyzz ",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",

@@ -2,6 +2,7 @@
 package net.mcreator.shyrium.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -15,6 +16,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
+import net.mcreator.shyrium.item.MalachitegemItem;
 import net.mcreator.shyrium.ShyriumModElements;
 
 import java.util.List;
@@ -37,7 +39,8 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("malachiteore");
 		}
 
@@ -51,7 +54,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(MalachitegemItem.block, (int) (3)));
 		}
 	}
 }
