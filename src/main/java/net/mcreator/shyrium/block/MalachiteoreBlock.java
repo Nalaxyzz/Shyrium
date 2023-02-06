@@ -39,7 +39,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("malachiteore");
 		}
@@ -54,7 +54,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(MalachitegemItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(MalachitegemItem.block));
 		}
 	}
 }
