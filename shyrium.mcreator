@@ -79,6 +79,33 @@
       "locked_code": false,
       "registry_name": "malachite_block",
       "path": "~/Block"
+    },
+    {
+      "name": "Malachiteingotfurnace",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachiteingotfurnace",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteBlockCraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteBlockDecraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_block_decraft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -128,7 +155,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.5 P3",
+    "version": "0.0.2.5 P4",
     "description": "By Shyro Studio and Nalaxyzz ",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",

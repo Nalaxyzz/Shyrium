@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shyrium:malachite_block"
+    }
+  ],
+  "result": {
+    "item": "shyrium:malachite_ingot",
+    "count": 9
+  }
+}
