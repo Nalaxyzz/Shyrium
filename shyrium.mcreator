@@ -131,8 +131,8 @@
       "item.shyrium.voidium_ingot": "Voidium Ingot",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
-      "itemGroup.tabshyriumtab": "Shyrium",
       "block.shyrium.malachiteore": "Malachite Ore",
+      "itemGroup.tabshyriumtab": "Shyrium",
       "block.shyrium.malachite_block": "Malachite Block",
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
@@ -140,6 +140,21 @@
       "item.shyrium.malachitegem": "Malachite gem",
       "item.shyrium.malachitearmor_boots": "Malachite Boots",
       "item.shyrium.azurite_ingot": "Azurite Ingot"
+    },
+    "fr_fr": {
+      "item.shyrium.malachitearmor_chestplate": "Malachite Body",
+      "item.shyrium.voidium_ingot": "L\u0027ingot de Voidium ",
+      "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
+      "item.shyrium.shyrium_staff": "Shyrium Staff",
+      "itemGroup.tabshyriumtab": "Shyrium",
+      "block.shyrium.malachiteore": "Malachite Ore",
+      "block.shyrium.malachite_block": "Block Malachite ",
+      "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
+      "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
+      "item.shyrium.malachitearmor_helmet": "Casque en Malachite ",
+      "item.shyrium.malachitegem": "Gem de Malachite ",
+      "item.shyrium.malachitearmor_boots": "Botte en Malachite ",
+      "item.shyrium.azurite_ingot": "L\u0027ingot D\u0027azurite "
     }
   },
   "foldersRoot": {
