@@ -5,17 +5,17 @@
     "renderType": 0,
     "texture": "malachite_tool_axe",
     "customModelName": "Normal",
-    "name": "Malachite_tool Axe",
+    "name": "Malachite  Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Shyriumtab"
     },
     "toolType": "Axe",
     "harvestLevel": 2,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
-    "damageVsEntity": 2.0,
+    "damageVsEntity": 9.0,
     "usageCount": 250,
     "blocksAffected": [],
     "hasGlow": false,

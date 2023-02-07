@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "malachite_tool_pickaxe",
     "customModelName": "Normal",
-    "name": "Malachite_tool Pickaxe",
+    "name": "Malachite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Shyriumtab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,

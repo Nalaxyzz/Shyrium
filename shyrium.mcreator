@@ -211,6 +211,42 @@
       "locked_code": false,
       "registry_name": "malachite_hoe_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteHelmetCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_helmet_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteCraftBody",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_craft_body",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteLegginsCraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_leggins_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteCraftBoots",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_craft_boots",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -218,7 +254,7 @@
   "language_map": {
     "en_us": {
       "item.shyrium.malachitearmor_chestplate": "Malachite Body",
-      "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
+      "item.shyrium.malachite_tool_axe": "Malachite  Axe",
       "item.shyrium.voidium_ingot": "Voidium Ingot",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
@@ -228,10 +264,10 @@
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
       "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
-      "item.shyrium.malachite_tool_sword": "Malachite_tool Sword",
-      "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
-      "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
-      "item.shyrium.malachite_tool_shovel": "Malachite_tool Shovel",
+      "item.shyrium.malachite_tool_sword": "Malachite Sword",
+      "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
+      "item.shyrium.malachite_tool_hoe": "Malachite Hoe",
+      "item.shyrium.malachite_tool_shovel": "Malachite  Shovel",
       "item.shyrium.malachitegem": "Malachite gem",
       "item.shyrium.malachitearmor_boots": "Malachite Boots",
       "item.shyrium.azurite_ingot": "Azurite Ingot"

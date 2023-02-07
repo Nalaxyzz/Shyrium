@@ -43,12 +43,12 @@ public class MalachitearmorItem extends ShyriumModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{4, 7, 8, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 14;
 			}
 
 			@Override

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "1": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "2": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "3": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "5": {
+      "item": "shyrium:malachite_ingot"
+    }
+  },
+  "result": {
+    "item": "shyrium:malachitearmor_helmet",
+    "count": 1
+  }
+}

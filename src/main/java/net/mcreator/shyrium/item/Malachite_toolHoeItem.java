@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
 import net.mcreator.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class Malachite_toolHoeItem extends ShyriumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 500;
 			}
 
 			public float getEfficiency() {
@@ -47,7 +47,7 @@ public class Malachite_toolHoeItem extends ShyriumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 		}.setRegistryName("malachite_tool_hoe"));
 	}
 }
