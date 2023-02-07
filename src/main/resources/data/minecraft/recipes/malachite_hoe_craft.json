@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "1": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "shyrium:malachite_tool_hoe",
+    "count": 1
+  }
+}

@@ -121,6 +121,96 @@
         "ec": true
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "Malachite_toolPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_tool_pickaxe",
+      "path": "~/item"
+    },
+    {
+      "name": "Malachite_toolAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_tool_axe",
+      "path": "~/item"
+    },
+    {
+      "name": "Malachite_toolSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_tool_sword",
+      "path": "~/item"
+    },
+    {
+      "name": "Malachite_toolShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_tool_shovel",
+      "path": "~/item"
+    },
+    {
+      "name": "Malachite_toolHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_tool_hoe",
+      "path": "~/item"
+    },
+    {
+      "name": "MalachitePickaxeCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_pickaxe_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteShovelCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_shovel_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteSwordCraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_sword_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteAxeCraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_axe_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "MalachiteHoeCraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_hoe_craft",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -128,30 +218,40 @@
   "language_map": {
     "en_us": {
       "item.shyrium.malachitearmor_chestplate": "Malachite Body",
+      "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
       "item.shyrium.voidium_ingot": "Voidium Ingot",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
-      "block.shyrium.malachiteore": "Malachite Ore",
       "itemGroup.tabshyriumtab": "Shyrium",
+      "block.shyrium.malachiteore": "Malachite Ore",
       "block.shyrium.malachite_block": "Malachite Block",
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
       "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
+      "item.shyrium.malachite_tool_sword": "Malachite_tool Sword",
+      "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
+      "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
+      "item.shyrium.malachite_tool_shovel": "Malachite_tool Shovel",
       "item.shyrium.malachitegem": "Malachite gem",
       "item.shyrium.malachitearmor_boots": "Malachite Boots",
       "item.shyrium.azurite_ingot": "Azurite Ingot"
     },
     "fr_fr": {
       "item.shyrium.malachitearmor_chestplate": "Plastron en Malachite ",
+      "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
       "item.shyrium.voidium_ingot": "L\u0027ingot de Voidium ",
       "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
-      "itemGroup.tabshyriumtab": "Shyrium",
       "block.shyrium.malachiteore": "Malachite Ore",
+      "itemGroup.tabshyriumtab": "Shyrium",
       "block.shyrium.malachite_block": "Block Malachite ",
       "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
       "item.shyrium.malachitearmor_leggings": "Jambière en Malachite",
       "item.shyrium.malachitearmor_helmet": "Casque en Malachite ",
+      "item.shyrium.malachite_tool_sword": "Malachite_tool Sword",
+      "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
+      "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
+      "item.shyrium.malachite_tool_shovel": "Malachite_tool Shovel",
       "item.shyrium.malachitegem": "Gem de Malachite ",
       "item.shyrium.malachitearmor_boots": "Botte en Malachite ",
       "item.shyrium.azurite_ingot": "L\u0027ingot D\u0027azurite "
@@ -189,7 +289,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.5 P5",
+    "version": "0.0.2.5",
     "description": "By Shyro Studio and Nalaxyzz ",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",

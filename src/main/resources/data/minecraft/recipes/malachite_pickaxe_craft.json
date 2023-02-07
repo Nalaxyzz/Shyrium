@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "1": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "2": {
+      "item": "shyrium:malachite_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "shyrium:malachite_tool_pickaxe",
+    "count": 1
+  }
+}
