@@ -4,6 +4,7 @@
   "item.shyrium.voidium_ingot": "Voidium Ingot",
   "item.shyrium.malachite_ingot": "Malachite Ingot",
   "item.shyrium.shyrium_staff": "Shyrium Staff",
+  "block.shyrium.voidium_block": "Voidium Block",
   "itemGroup.tabshyriumtab": "Shyrium",
   "block.shyrium.malachiteore": "Malachite Ore",
   "block.shyrium.malachite_block": "Malachite Block",
@@ -14,7 +15,10 @@
   "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
   "item.shyrium.malachite_tool_hoe": "Malachite Hoe",
   "item.shyrium.malachite_tool_shovel": "Malachite  Shovel",
+  "block.shyrium.azurite_block": "Azurite Block",
   "item.shyrium.malachitegem": "Malachite gem",
   "item.shyrium.malachitearmor_boots": "Malachite Boots",
+  "block.shyrium.azurite_ore": "Azurite Ore",
+  "block.shyrium.voidium_ore": "Voidium Ore",
   "item.shyrium.azurite_ingot": "Azurite Ingot"
 }

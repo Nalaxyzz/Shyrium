@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shyrium:blocks/azuriteore",
+    "up": "shyrium:blocks/azuriteore",
+    "north": "shyrium:blocks/azuriteore",
+    "east": "shyrium:blocks/azuriteore",
+    "south": "shyrium:blocks/azuriteore",
+    "west": "shyrium:blocks/azuriteore",
+    "particle": "shyrium:blocks/azuriteore"
+  }
+}

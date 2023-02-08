@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shyrium:blocks/voidium_block",
+    "up": "shyrium:blocks/voidium_block",
+    "north": "shyrium:blocks/voidium_block",
+    "east": "shyrium:blocks/voidium_block",
+    "south": "shyrium:blocks/voidium_block",
+    "west": "shyrium:blocks/voidium_block",
+    "particle": "shyrium:blocks/voidium_block"
+  }
+}
