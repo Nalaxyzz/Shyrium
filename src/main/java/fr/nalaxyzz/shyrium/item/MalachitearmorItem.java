@@ -1,5 +1,5 @@
 
-package net.mcreator.shyrium.item;
+package fr.nalaxyzz.shyrium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,8 +15,8 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
 public class MalachitearmorItem extends ShyriumModElements.ModElement {

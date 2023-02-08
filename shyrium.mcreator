@@ -325,10 +325,10 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.2.6",
-    "description": "By Shyro Studio and Nalaxyzz ",
-    "author": "Nalaxyzz, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.0.3.0",
+    "description": "By Shyro And Nalaxyzz",
+    "author": "Nalaxyzz ",
+    "websiteURL": "https://discord.gg/NwxKsXKpgQ",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -339,8 +339,8 @@
       "just_enough_items"
     ],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.shyrium",
+    "credits": "By Shyro And Nalaxyzz",
+    "modElementsPackage": "fr.nalaxyzz.shyrium",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200234517

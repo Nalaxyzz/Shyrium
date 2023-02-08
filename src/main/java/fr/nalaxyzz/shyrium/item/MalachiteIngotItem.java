@@ -1,5 +1,5 @@
 
-package net.mcreator.shyrium.item;
+package fr.nalaxyzz.shyrium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -8,16 +8,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
-public class VoidiumIngotItem extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:voidium_ingot")
+public class MalachiteIngotItem extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:malachite_ingot")
 	public static final Item block = null;
 
-	public VoidiumIngotItem(ShyriumModElements instance) {
-		super(instance, 5);
+	public MalachiteIngotItem(ShyriumModElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
@@ -27,8 +27,8 @@ public class VoidiumIngotItem extends ShyriumModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("voidium_ingot");
+			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			setRegistryName("malachite_ingot");
 		}
 
 		@Override

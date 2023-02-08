@@ -1,5 +1,5 @@
 
-package net.mcreator.shyrium.item;
+package fr.nalaxyzz.shyrium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -14,8 +14,8 @@ import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
@@ -37,7 +37,7 @@ public class ShyriumStaffItem extends ShyriumModElements.ModElement {
 
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxDamage(100).isImmuneToFire());
+			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxDamage(2000).isImmuneToFire());
 		}
 
 		@Override
@@ -46,7 +46,7 @@ public class ShyriumStaffItem extends ShyriumModElements.ModElement {
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(equipmentSlot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 2f, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 9.5f, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 				return builder.build();
@@ -56,7 +56,7 @@ public class ShyriumStaffItem extends ShyriumModElements.ModElement {
 
 		@Override
 		public boolean canHarvestBlock(BlockState state) {
-			return 1 >= state.getHarvestLevel();
+			return 4 >= state.getHarvestLevel();
 		}
 
 		@Override

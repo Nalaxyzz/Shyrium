@@ -1,31 +1,31 @@
 
-package net.mcreator.shyrium.item;
+package fr.nalaxyzz.shyrium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
-public class Malachite_toolShovelItem extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:malachite_tool_shovel")
+public class Malachite_toolAxeItem extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:malachite_tool_axe")
 	public static final Item block = null;
 
-	public Malachite_toolShovelItem(ShyriumModElements instance) {
-		super(instance, 19);
+	public Malachite_toolAxeItem(ShyriumModElements instance) {
+		super(instance, 17);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ShovelItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 500;
+				return 250;
 			}
 
 			public float getEfficiency() {
@@ -33,7 +33,7 @@ public class Malachite_toolShovelItem extends ShyriumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -48,6 +48,6 @@ public class Malachite_toolShovelItem extends ShyriumModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
-		}.setRegistryName("malachite_tool_shovel"));
+		}.setRegistryName("malachite_tool_axe"));
 	}
 }

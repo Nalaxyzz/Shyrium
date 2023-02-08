@@ -1,8 +1,7 @@
 
-package net.mcreator.shyrium.block;
+package fr.nalaxyzz.shyrium.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -15,20 +14,19 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.item.MalachitegemItem;
-import net.mcreator.shyrium.ShyriumModElements;
-
 import java.util.List;
 import java.util.Collections;
 
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
+
 @ShyriumModElements.ModElement.Tag
-public class MalachiteoreBlock extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:malachiteore")
+public class MalachiteBlockBlock extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:malachite_block")
 	public static final Block block = null;
 
-	public MalachiteoreBlock(ShyriumModElements instance) {
-		super(instance, 9);
+	public MalachiteBlockBlock(ShyriumModElements instance) {
+		super(instance, 11);
 	}
 
 	@Override
@@ -39,9 +37,8 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("malachiteore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.LODESTONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			setRegistryName("malachite_block");
 		}
 
 		@Override
@@ -54,7 +51,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(MalachitegemItem.block));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

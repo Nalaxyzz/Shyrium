@@ -1,5 +1,5 @@
 
-package net.mcreator.shyrium.itemgroup;
+package fr.nalaxyzz.shyrium.itemgroup;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -7,8 +7,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.shyrium.item.ShyriumStaffItem;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.item.ShyriumStaffItem;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
 public class ShyriumtabItemGroup extends ShyriumModElements.ModElement {

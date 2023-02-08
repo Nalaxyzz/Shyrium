@@ -1,5 +1,5 @@
 
-package net.mcreator.shyrium.item;
+package fr.nalaxyzz.shyrium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -8,8 +8,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.shyrium.itemgroup.ShyriumtabItemGroup;
-import net.mcreator.shyrium.ShyriumModElements;
+import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
 public class ShyriumIngotItem extends ShyriumModElements.ModElement {

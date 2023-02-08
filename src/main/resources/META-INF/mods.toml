@@ -4,13 +4,13 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="shyrium"
-version="0.0.2.6"
+version="0.0.3.0"
 displayName="Shyrium"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Nalaxyzz, MCreator"
+credits="By Shyro And Nalaxyzz"
+displayURL="https://discord.gg/NwxKsXKpgQ"
+authors="Nalaxyzz "
 description='''
-By Shyro Studio and Nalaxyzz 
+By Shyro And Nalaxyzz
 '''
 
 [[dependencies.shyrium]]
