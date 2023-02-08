@@ -47,7 +47,7 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public AzuriteOreBlock(ShyriumModElements instance) {
-		super(instance, 32);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -114,8 +114,8 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 18)).range(64)
-					.square().func_242731_b(12);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
+					.square().func_242731_b(7);
 			event.getRegistry().register(feature.setRegistryName("azurite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:azurite_ore"), configuredFeature);
 		}

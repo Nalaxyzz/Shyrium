@@ -47,7 +47,7 @@ public class VoidiumOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public VoidiumOreBlock(ShyriumModElements instance) {
-		super(instance, 30);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -114,8 +114,8 @@ public class VoidiumOreBlock extends ShyriumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(64)
+					.square().func_242731_b(6);
 			event.getRegistry().register(feature.setRegistryName("voidium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:voidium_ore"), configuredFeature);
 		}

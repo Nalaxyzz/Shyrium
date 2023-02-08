@@ -80,25 +80,25 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_upgrade_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_upgrade_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_upgrade_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_upgrade_boots"));
 	}
