@@ -48,7 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -139,7 +139,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 7,
+    "frequencyPerChunks": 20,
     "frequencyOnChunk": 9,
     "minGenerateHeight": 20,
     "maxGenerateHeight": 256

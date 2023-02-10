@@ -2,6 +2,7 @@
 package fr.nalaxyzz.shyrium.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -26,7 +27,7 @@ public class VoidiumBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public VoidiumBlockBlock(ShyriumModElements instance) {
-		super(instance, 31);
+		super(instance, 5);
 	}
 
 	@Override
@@ -37,7 +38,8 @@ public class VoidiumBlockBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("voidium_block");
 		}
 

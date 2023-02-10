@@ -298,6 +298,30 @@
         "ec": true
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "ShyriumArmorUltime",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_ultime",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "AgatiumOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_ore",
+      "path": "~/Block"
     }
   ],
   "variable_elements": [],
@@ -305,7 +329,11 @@
   "language_map": {
     "en_us": {
       "item.shyrium.malachite_tool_axe": "Malachite  Axe",
+      "item.shyrium.shyrium_armor_ultime_helmet": "Shyrium Ultime Helmet",
+      "item.shyrium.shyrium_armor_ultime_chestplate": "Shyrium Ultime Body",
+      "block.shyrium.agatium_ore": "Agatium Ore",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
+      "item.shyrium.shyrium_armor_ultime_leggings": "Shyrium Ultime Leggings",
       "block.shyrium.voidium_block": "Voidium Block",
       "block.shyrium.malachiteore": "Malachite Ore",
       "block.shyrium.malachite_block": "Malachite Block",
@@ -321,6 +349,7 @@
       "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
       "itemGroup.tabshyriumtab": "Shyrium",
+      "item.shyrium.shyrium_armor_ultime_boots": "Shyrium Ultime Boots",
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
       "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
@@ -333,7 +362,11 @@
     },
     "fr_fr": {
       "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
+      "item.shyrium.shyrium_armor_ultime_helmet": "Shyrium Ultime Helmet",
+      "item.shyrium.shyrium_armor_ultime_chestplate": "Shyrium Ultime Body",
+      "block.shyrium.agatium_ore": "Agatium Ore",
       "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
+      "item.shyrium.shyrium_armor_ultime_leggings": "Shyrium Ultime Leggings",
       "block.shyrium.voidium_block": "Voidium Block",
       "block.shyrium.malachiteore": "Malachite Ore",
       "block.shyrium.malachite_block": "Block Malachite ",
@@ -349,6 +382,7 @@
       "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
       "item.shyrium.shyrium_staff": "Shyrium Staff",
       "itemGroup.tabshyriumtab": "Shyrium",
+      "item.shyrium.shyrium_armor_ultime_boots": "Shyrium Ultime Boots",
       "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
       "item.shyrium.malachitearmor_leggings": "Jambière en Malachite",
       "item.shyrium.malachitearmor_helmet": "Casque en Malachite ",
@@ -392,7 +426,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.4.0",
+    "version": "0.0.4.5",
     "description": "By Shyro And Nalaxyzz",
     "author": "Nalaxyzz ",
     "websiteURL": "https://discord.gg/NwxKsXKpgQ",

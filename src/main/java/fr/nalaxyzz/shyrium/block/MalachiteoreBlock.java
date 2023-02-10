@@ -49,7 +49,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public MalachiteoreBlock(ShyriumModElements instance) {
-		super(instance, 9);
+		super(instance, 1);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,7 +63,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("malachiteore");
 		}
 
@@ -122,7 +122,7 @@ public class MalachiteoreBlock extends ShyriumModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(256)
-					.square().func_242731_b(7);
+					.square().func_242731_b(20);
 			event.getRegistry().register(feature.setRegistryName("malachiteore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:malachiteore"), configuredFeature);
 		}

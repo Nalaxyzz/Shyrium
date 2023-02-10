@@ -43,12 +43,12 @@ import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
-public class AzuriteOreBlock extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:azurite_ore")
+public class AgatiumOreBlock extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:agatium_ore")
 	public static final Block block = null;
 
-	public AzuriteOreBlock(ShyriumModElements instance) {
-		super(instance, 3);
+	public AgatiumOreBlock(ShyriumModElements instance) {
+		super(instance, 34);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,9 +61,9 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("azurite_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("agatium_ore");
 		}
 
 		@Override
@@ -90,7 +90,7 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.NETHERRACK)
+			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -103,13 +103,13 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("shyrium:azurite_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("shyrium:agatium_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.THE_NETHER)
+					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -117,9 +117,9 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
-					.square().func_242731_b(7);
-			event.getRegistry().register(feature.setRegistryName("azurite_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:azurite_ore"), configuredFeature);
+					.square().func_242731_b(10);
+			event.getRegistry().register(feature.setRegistryName("agatium_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:agatium_ore"), configuredFeature);
 		}
 	}
 

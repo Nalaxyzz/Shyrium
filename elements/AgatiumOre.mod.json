@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "azuriteblock",
-    "textureTop": "azuriteblock",
-    "textureLeft": "azuriteblock",
-    "textureFront": "azuriteblock",
-    "textureRight": "azuriteblock",
-    "textureBack": "azuriteblock",
+    "texture": "agatium_ore",
+    "textureTop": "agatium_ore",
+    "textureLeft": "agatium_ore",
+    "textureFront": "agatium_ore",
+    "textureRight": "agatium_ore",
+    "textureBack": "agatium_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Azurite Block",
+    "name": "Agatium Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -123,7 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
