@@ -9,28 +9,28 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
-import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
-public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:shyrium_upgrade_helmet")
+public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:shyrium_armor_basic_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("shyrium:shyrium_upgrade_chestplate")
+	@ObjectHolder("shyrium:shyrium_armor_basic_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("shyrium:shyrium_upgrade_leggings")
+	@ObjectHolder("shyrium:shyrium_armor_basic_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("shyrium:shyrium_upgrade_boots")
+	@ObjectHolder("shyrium:shyrium_armor_basic_boots")
 	public static final Item boots = null;
 
-	public ShyriumUpgradeItem(ShyriumModElements instance) {
-		super(instance, 19);
+	public ShyriumArmorBasicItem(ShyriumModElements instance) {
+		super(instance, 35);
 	}
 
 	@Override
@@ -64,7 +64,7 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "shyrium_upgrade";
+				return "shyrium_armor_basic";
 			}
 
 			@Override
@@ -77,30 +77,30 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("shyrium_upgrade_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+		}.setRegistryName("shyrium_armor_basic_helmet"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("shyrium_upgrade_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+		}.setRegistryName("shyrium_armor_basic_chestplate"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("shyrium_upgrade_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+		}.setRegistryName("shyrium_armor_basic_leggings"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyrium_upgraded______layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("shyrium_upgrade_boots"));
+		}.setRegistryName("shyrium_armor_basic_boots"));
 	}
 
 }

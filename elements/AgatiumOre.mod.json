@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "agatium_ore",
+    "texture": "stone",
     "textureTop": "agatium_ore",
-    "textureLeft": "agatium_ore",
-    "textureFront": "agatium_ore",
+    "textureLeft": "stone",
+    "textureFront": "stone",
     "textureRight": "agatium_ore",
     "textureBack": "agatium_ore",
     "renderType": 10,
