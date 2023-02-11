@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import fr.nalaxyzz.shyrium.item.ShyriumStaffItem;
+import fr.nalaxyzz.shyrium.item.ShyriumCoreItem;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
 public class ShyriumtabItemGroup extends ShyriumModElements.ModElement {
 	public ShyriumtabItemGroup(ShyriumModElements instance) {
-		super(instance, 2);
+		super(instance, 23);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class ShyriumtabItemGroup extends ShyriumModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ShyriumStaffItem.block);
+				return new ItemStack(ShyriumCoreItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

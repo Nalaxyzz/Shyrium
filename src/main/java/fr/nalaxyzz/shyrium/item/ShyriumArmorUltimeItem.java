@@ -6,6 +6,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -14,6 +17,9 @@ import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
+
+import java.util.List;
 
 import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
@@ -30,7 +36,7 @@ public class ShyriumArmorUltimeItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public ShyriumArmorUltimeItem(ShyriumModElements instance) {
-		super(instance, 33);
+		super(instance, 21);
 	}
 
 	@Override
@@ -79,11 +85,23 @@ public class ShyriumArmorUltimeItem extends ShyriumModElements.ModElement {
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("Pr\u00E9vue V2.0.0.0 [Texture pas officiel]"));
+			}
+
+			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "shyrium:textures/models/armor/shyriumultimate___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_ultime_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("Pr\u00E9vue V2.0.0.0 [Texture pas officiel]"));
+			}
+
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "shyrium:textures/models/armor/shyriumultimate___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -91,11 +109,23 @@ public class ShyriumArmorUltimeItem extends ShyriumModElements.ModElement {
 		}.setRegistryName("shyrium_armor_ultime_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("Pr\u00E9vue V2.0.0.0 [Texture pas officiel]"));
+			}
+
+			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "shyrium:textures/models/armor/shyriumultimate___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_ultime_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("Pr\u00E9vue V2.0.0.0 [Texture pas officiel]"));
+			}
+
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "shyrium:textures/models/armor/shyriumultimate___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

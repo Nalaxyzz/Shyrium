@@ -48,7 +48,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public AgatiumOreBlock(ShyriumModElements instance) {
-		super(instance, 34);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -90,7 +90,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
+			if (blockAt.getBlock() == Blocks.NETHERRACK)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -109,7 +109,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.OVERWORLD)
+					if (dimensionType == World.THE_NETHER)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -117,7 +117,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
-					.square().func_242731_b(10);
+					.square().func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("agatium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:agatium_ore"), configuredFeature);
 		}

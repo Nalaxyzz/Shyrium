@@ -12,12 +12,12 @@ import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
-public class MalachitegemItem extends ShyriumModElements.ModElement {
-	@ObjectHolder("shyrium:malachitegem")
+public class ShyriumCoreItem extends ShyriumModElements.ModElement {
+	@ObjectHolder("shyrium:shyrium_core")
 	public static final Item block = null;
 
-	public MalachitegemItem(ShyriumModElements instance) {
-		super(instance, 7);
+	public ShyriumCoreItem(ShyriumModElements instance) {
+		super(instance, 22);
 	}
 
 	@Override
@@ -27,8 +27,8 @@ public class MalachitegemItem extends ShyriumModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("malachitegem");
+			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
+			setRegistryName("shyrium_core");
 		}
 
 		@Override

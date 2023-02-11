@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "shyrium_armor2",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Shyriumtab"
     },
     "armorTextureFile": "shyriumarmor__",
     "helmetName": "Shyrium Basic Helmet",

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Shyrium",
     "icon": {
-      "value": "CUSTOM:ShyriumStaff"
+      "value": "CUSTOM:ShyriumCore"
     },
     "showSearch": false
   }

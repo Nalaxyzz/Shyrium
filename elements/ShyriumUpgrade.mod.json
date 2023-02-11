@@ -10,6 +10,18 @@
     "textureLeggings": "shyrium_armor_leggings",
     "enableBoots": true,
     "textureBoots": "shyrium_armor_boots",
+    "onHelmetTick": {
+      "name": "ShyriumUpgradeHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ShyriumUpgradeBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ShyriumUpgradeLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ShyriumUpgradeBootsTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },

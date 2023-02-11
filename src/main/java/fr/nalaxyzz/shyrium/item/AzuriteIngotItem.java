@@ -17,7 +17,7 @@ public class AzuriteIngotItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public AzuriteIngotItem(ShyriumModElements instance) {
-		super(instance, 8);
+		super(instance, 10);
 	}
 
 	@Override
