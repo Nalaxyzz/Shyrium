@@ -13,7 +13,7 @@ import fr.nalaxyzz.shyrium.ShyriumModElements;
 @ShyriumModElements.ModElement.Tag
 public class ShyriumtabItemGroup extends ShyriumModElements.ModElement {
 	public ShyriumtabItemGroup(ShyriumModElements instance) {
-		super(instance, 23);
+		super(instance, 31);
 	}
 
 	@Override

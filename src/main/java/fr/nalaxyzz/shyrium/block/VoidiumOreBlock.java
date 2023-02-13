@@ -48,7 +48,7 @@ public class VoidiumOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public VoidiumOreBlock(ShyriumModElements instance) {
-		super(instance, 4);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

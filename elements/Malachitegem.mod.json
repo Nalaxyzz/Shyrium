@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "malachite_gem",
+    "texture": "raw_malachite",
     "customModelName": "Normal",
     "name": "Malachite gem",
     "rarity": "COMMON",

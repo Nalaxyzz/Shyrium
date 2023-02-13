@@ -27,7 +27,7 @@ public class AzuriteBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public AzuriteBlockBlock(ShyriumModElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override

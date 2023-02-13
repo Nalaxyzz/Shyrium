@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shyrium:voidium_block"
+    }
+  ],
+  "result": {
+    "item": "shyrium:voidium_ingot",
+    "count": 9
+  }
+}

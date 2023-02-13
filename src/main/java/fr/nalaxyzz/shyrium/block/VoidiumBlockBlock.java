@@ -27,7 +27,7 @@ public class VoidiumBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public VoidiumBlockBlock(ShyriumModElements instance) {
-		super(instance, 5);
+		super(instance, 8);
 	}
 
 	@Override

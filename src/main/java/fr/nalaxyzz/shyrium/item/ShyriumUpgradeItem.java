@@ -41,7 +41,7 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public ShyriumUpgradeItem(ShyriumModElements instance) {
-		super(instance, 19);
+		super(instance, 22);
 	}
 
 	@Override

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "1": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "2": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "3": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "4": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "5": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "6": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "7": {
+      "item": "shyrium:voidium_ingot"
+    },
+    "8": {
+      "item": "shyrium:voidium_ingot"
+    }
+  },
+  "result": {
+    "item": "shyrium:voidium_block",
+    "count": 1
+  }
+}

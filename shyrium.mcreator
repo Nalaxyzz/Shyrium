@@ -3,7 +3,7 @@
     {
       "name": "Shyriumtab",
       "type": "tab",
-      "sortid": 23,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyriumtab"
@@ -11,7 +11,7 @@
     {
       "name": "ShyriumIngot",
       "type": "item",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_ingot",
@@ -20,7 +20,7 @@
     {
       "name": "VoidiumIngot",
       "type": "item",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidium_ingot",
@@ -29,7 +29,7 @@
     {
       "name": "MalachiteIngot",
       "type": "item",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_ingot",
@@ -38,7 +38,7 @@
     {
       "name": "AzuriteIngot",
       "type": "item",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "azurite_ingot",
@@ -56,7 +56,7 @@
     {
       "name": "Malachitegem",
       "type": "item",
-      "sortid": 8,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachitegem",
@@ -65,7 +65,7 @@
     {
       "name": "MalachiteBlock",
       "type": "block",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_block",
@@ -74,7 +74,7 @@
     {
       "name": "Malachiteingotfurnace",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachiteingotfurnace",
@@ -83,7 +83,7 @@
     {
       "name": "MalachiteBlockCraft",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_block_craft",
@@ -92,7 +92,7 @@
     {
       "name": "MalachiteBlockDecraft",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_block_decraft",
@@ -101,7 +101,7 @@
     {
       "name": "Malachitearmor",
       "type": "armor",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachitearmor",
@@ -116,7 +116,7 @@
     {
       "name": "Malachite_toolPickaxe",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_pickaxe",
@@ -125,7 +125,7 @@
     {
       "name": "Malachite_toolAxe",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_axe",
@@ -134,7 +134,7 @@
     {
       "name": "Malachite_toolSword",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_sword",
@@ -143,7 +143,7 @@
     {
       "name": "Malachite_toolShovel",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_shovel",
@@ -152,7 +152,7 @@
     {
       "name": "Malachite_toolHoe",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_hoe",
@@ -161,7 +161,7 @@
     {
       "name": "MalachitePickaxeCraft",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_pickaxe_craft",
@@ -170,7 +170,7 @@
     {
       "name": "MalachiteShovelCraft",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_shovel_craft",
@@ -179,7 +179,7 @@
     {
       "name": "MalachiteSwordCraft",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_sword_craft",
@@ -188,7 +188,7 @@
     {
       "name": "MalachiteAxeCraft",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_axe_craft",
@@ -197,7 +197,7 @@
     {
       "name": "MalachiteHoeCraft",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_hoe_craft",
@@ -206,7 +206,7 @@
     {
       "name": "MalachiteHelmetCraft",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_helmet_craft",
@@ -215,7 +215,7 @@
     {
       "name": "MalachiteCraftBody",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_craft_body",
@@ -224,7 +224,7 @@
     {
       "name": "MalachiteLegginsCraft",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_leggins_craft",
@@ -233,7 +233,7 @@
     {
       "name": "MalachiteCraftBoots",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_craft_boots",
@@ -242,7 +242,7 @@
     {
       "name": "VoidiumOre",
       "type": "block",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidium_ore",
@@ -251,7 +251,7 @@
     {
       "name": "VoidiumBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidium_block",
@@ -260,7 +260,7 @@
     {
       "name": "AzuriteOre",
       "type": "block",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "azurite_ore",
@@ -278,7 +278,7 @@
     {
       "name": "ShyriumUpgrade",
       "type": "armor",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade",
@@ -291,24 +291,9 @@
       "path": "~/Armor"
     },
     {
-      "name": "ShyriumArmorUltime",
-      "type": "armor",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shyrium_armor_ultime",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/Armor"
-    },
-    {
       "name": "AgatiumOre",
       "type": "block",
-      "sortid": 2,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_ore",
@@ -317,7 +302,7 @@
     {
       "name": "ShyriumArmorBasic",
       "type": "armor",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_armor_basic",
@@ -332,7 +317,7 @@
     {
       "name": "ShyriumCore",
       "type": "item",
-      "sortid": 22,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_core",
@@ -341,7 +326,7 @@
     {
       "name": "Hammer",
       "type": "item",
-      "sortid": 36,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammer",
@@ -350,7 +335,7 @@
     {
       "name": "ShyriumPlaque",
       "type": "item",
-      "sortid": 37,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_plaque",
@@ -359,7 +344,7 @@
     {
       "name": "ShyriumUpgradeHelmetTickEvent",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade_helmet_tick_event",
@@ -376,7 +361,7 @@
     {
       "name": "ShyriumUpgradeBodyTickEvent",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade_body_tick_event",
@@ -393,7 +378,7 @@
     {
       "name": "ShyriumUpgradeLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade_leggings_tick_event",
@@ -410,7 +395,7 @@
     {
       "name": "ShyriumUpgradeBootsTickEvent",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade_boots_tick_event",
@@ -427,7 +412,7 @@
     {
       "name": "ShyriumPlaqueCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_plaque_craft",
@@ -436,10 +421,304 @@
     {
       "name": "MalachiteFurnace2",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_furnace_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_block",
+      "path": "~/Block"
+    },
+    {
+      "name": "Shyriumore",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyriumore",
+      "path": "~/Block"
+    },
+    {
+      "name": "ShyriumBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_block",
+      "path": "~/Block"
+    },
+    {
+      "name": "AgatiumIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Agatiumnugget",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumnugget",
+      "path": "~/item"
+    },
+    {
+      "name": "Agatiumraw",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumraw",
+      "path": "~/item"
+    },
+    {
+      "name": "Agatium",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "AzuriteFurnace1",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azurite_furnace_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Azuritefurnace2",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azuritefurnace_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Voidiumfurnace1",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidiumfurnace_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Voidiumfurnace2",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidiumfurnace_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumOreNether",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_ore_nether",
+      "path": "~/Block"
+    },
+    {
+      "name": "Agatiumfurnace1",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumfurnace_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatiumfurnace2",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumfurnace_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumFurnace1",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_furnace_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumFurnace2",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_furnace_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumFurnace3",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_furnace_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumFurnarce4",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_furnarce_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumBlockCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumBlockCraft",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AzuriteBlockCraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azurite_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "VoidiumBlockCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidium_block_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumBlockDecraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_block_decraft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumBlockDecraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_block_decraft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AzuriteBlockDecraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azurite_block_decraft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "VoidiumBlockDecraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidium_block_decraft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatium_toolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_tool_pickaxe_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatium_toolAxeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_tool_axe_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatium_toolSwordRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_tool_sword_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatium_toolShovelRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_tool_shovel_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Agatium_toolHoeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_tool_hoe_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "HammerCraft",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_craft",
       "path": "~/Craft"
     }
   ],
@@ -447,81 +726,95 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.shyrium.shyrium_armor_ultime_helmet": "Shyrium Ultime Helmet",
-      "item.shyrium.malachite_tool_axe": "Malachite  Axe",
-      "item.shyrium.shyrium_armor_ultime_chestplate": "Shyrium Ultime Body",
+      "block.shyrium.agatium_block": "Agatium Block",
       "block.shyrium.agatium_ore": "Agatium Ore",
+      "block.shyrium.shyrium_block": "Shyrium Block",
+      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
-      "item.shyrium.shyrium_armor_ultime_leggings": "Shyrium Ultime Leggings",
+      "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
+      "item.shyrium.malachite_tool_hoe": "Malachite Hoe",
+      "block.shyrium.azurite_block": "Azurite Block",
+      "item.shyrium.agatium_ingot": "Agatium Ingot",
+      "item.shyrium.shyrium_armor_basic_leggings": "Shyrium Basic Leggings",
+      "item.shyrium.malachitearmor_chestplate": "Malachite Body",
+      "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
+      "item.shyrium.hammer": "Hammer",
+      "itemGroup.tabshyriumtab": "Shyrium",
+      "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
+      "item.shyrium.shyrium_ingot": "Shyrium Ingot",
+      "item.shyrium.shyrium_upgrade_helmet": "Shyrium Upgrade Helmet",
+      "item.shyrium.shyrium_upgrade_leggings": "Shyrium Upgrade Leggings",
+      "item.shyrium.shyrium_upgrade_boots": "Shyrium Upgrade Boots",
+      "item.shyrium.agatium_boots": "Agatium Boots",
+      "block.shyrium.azurite_ore": "Azurite Ore",
+      "item.shyrium.shyrium_core": "Shyrium Core",
+      "item.shyrium.malachite_tool_axe": "Malachite  Axe",
       "item.shyrium.shyrium_armor_basic_boots": "Shyrium Basic Boots",
       "block.shyrium.voidium_block": "Voidium Block",
       "block.shyrium.malachiteore": "Malachite Ore",
       "block.shyrium.malachite_block": "Malachite Block",
       "item.shyrium.malachite_tool_sword": "Malachite Sword",
       "item.shyrium.shyrium_plaque": "Shyrium Plaque",
-      "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
-      "item.shyrium.malachite_tool_hoe": "Malachite Hoe",
       "item.shyrium.malachite_tool_shovel": "Malachite  Shovel",
-      "block.shyrium.azurite_block": "Azurite Block",
       "item.shyrium.malachitearmor_boots": "Malachite Boots",
-      "item.shyrium.shyrium_armor_basic_leggings": "Shyrium Basic Leggings",
+      "item.shyrium.agatium_chestplate": "Agatium Body",
       "block.shyrium.voidium_ore": "Voidium Ore",
-      "item.shyrium.malachitearmor_chestplate": "Malachite Body",
       "item.shyrium.voidium_ingot": "Voidium Ingot",
-      "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
-      "item.shyrium.hammer": "Hammer",
-      "itemGroup.tabshyriumtab": "Shyrium",
+      "block.shyrium.shyrium_ore_nether": "Shyrium Ore Nether",
+      "item.shyrium.agatiumnugget": "Agatium Nugget",
+      "item.shyrium.agatium_helmet": "Agatium Helmet",
       "item.shyrium.shyrium_armor_basic_helmet": "Shyrium Basic Helmet",
-      "item.shyrium.shyrium_armor_ultime_boots": "Shyrium Ultime Boots",
-      "item.shyrium.shyrium_ingot": "Shyrium Ingot",
-      "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
+      "block.shyrium.shyriumore": "Shyriumore",
       "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
-      "item.shyrium.shyrium_upgrade_helmet": "Shyrium Upgrade Helmet",
-      "item.shyrium.shyrium_upgrade_leggings": "Shyrium Upgrade Leggings",
-      "item.shyrium.shyrium_upgrade_boots": "Shyrium Upgrade Boots",
       "item.shyrium.malachitegem": "Malachite gem",
-      "block.shyrium.azurite_ore": "Azurite Ore",
       "item.shyrium.shyrium_armor_basic_chestplate": "Shyrium Basic Body",
-      "item.shyrium.shyrium_core": "Shyrium Core",
+      "item.shyrium.agatiumraw": "Agatium Raw",
       "item.shyrium.azurite_ingot": "Azurite Ingot"
     },
     "fr_fr": {
-      "item.shyrium.shyrium_armor_ultime_helmet": "Shyrium Ultime Helmet",
-      "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
-      "item.shyrium.shyrium_armor_ultime_chestplate": "Shyrium Ultime Body",
+      "block.shyrium.agatium_block": "Agatium Block",
       "block.shyrium.agatium_ore": "Agatium Ore",
+      "block.shyrium.shyrium_block": "Shyrium Block",
+      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
-      "item.shyrium.shyrium_armor_ultime_leggings": "Shyrium Ultime Leggings",
+      "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
+      "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
+      "block.shyrium.azurite_block": "Azurite Block",
+      "item.shyrium.agatium_ingot": "Agatium Ingot",
+      "item.shyrium.shyrium_armor_basic_leggings": "Shyrium Basic Leggings",
+      "item.shyrium.malachitearmor_chestplate": "Plastron en Malachite ",
+      "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
+      "item.shyrium.hammer": "Hammer",
+      "itemGroup.tabshyriumtab": "Shyrium",
+      "item.shyrium.malachitearmor_leggings": "Jambière en Malachite",
+      "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
+      "item.shyrium.shyrium_upgrade_helmet": "Shyrium Upgrade Helmet",
+      "item.shyrium.shyrium_upgrade_leggings": "Shyrium Upgrade Leggings",
+      "item.shyrium.shyrium_upgrade_boots": "Shyrium Upgrade Boots",
+      "item.shyrium.agatium_boots": "Agatium Boots",
+      "block.shyrium.azurite_ore": "Azurite Ore",
+      "item.shyrium.shyrium_core": "Shyrium Core",
+      "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
       "item.shyrium.shyrium_armor_basic_boots": "Shyrium Basic Boots",
       "block.shyrium.voidium_block": "Voidium Block",
       "block.shyrium.malachiteore": "Malachite Ore",
       "block.shyrium.malachite_block": "Block Malachite ",
       "item.shyrium.malachite_tool_sword": "Malachite_tool Sword",
       "item.shyrium.shyrium_plaque": "Shyrium Plaque",
-      "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
-      "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
       "item.shyrium.malachite_tool_shovel": "Malachite_tool Shovel",
-      "block.shyrium.azurite_block": "Azurite Block",
       "item.shyrium.malachitearmor_boots": "Botte en Malachite ",
-      "item.shyrium.shyrium_armor_basic_leggings": "Shyrium Basic Leggings",
+      "item.shyrium.agatium_chestplate": "Agatium Body",
       "block.shyrium.voidium_ore": "Voidium Ore",
-      "item.shyrium.malachitearmor_chestplate": "Plastron en Malachite ",
       "item.shyrium.voidium_ingot": "L\u0027ingot de Voidium ",
-      "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
-      "item.shyrium.hammer": "Hammer",
-      "itemGroup.tabshyriumtab": "Shyrium",
+      "block.shyrium.shyrium_ore_nether": "Shyrium Ore Nether",
+      "item.shyrium.agatiumnugget": "Agatiumnugget",
+      "item.shyrium.agatium_helmet": "Agatium Helmet",
       "item.shyrium.shyrium_armor_basic_helmet": "Shyrium Basic Helmet",
-      "item.shyrium.shyrium_armor_ultime_boots": "Shyrium Ultime Boots",
-      "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
-      "item.shyrium.malachitearmor_leggings": "Jambière en Malachite",
+      "block.shyrium.shyriumore": "Shyriumore",
       "item.shyrium.malachitearmor_helmet": "Casque en Malachite ",
-      "item.shyrium.shyrium_upgrade_helmet": "Shyrium Upgrade Helmet",
-      "item.shyrium.shyrium_upgrade_leggings": "Shyrium Upgrade Leggings",
-      "item.shyrium.shyrium_upgrade_boots": "Shyrium Upgrade Boots",
       "item.shyrium.malachitegem": "Gem de Malachite ",
-      "block.shyrium.azurite_ore": "Azurite Ore",
       "item.shyrium.shyrium_armor_basic_chestplate": "Shyrium Basic Body",
-      "item.shyrium.shyrium_core": "Shyrium Core",
+      "item.shyrium.agatiumraw": "Agatiumraw",
       "item.shyrium.azurite_ingot": "L\u0027ingot D\u0027azurite "
     }
   },
@@ -557,7 +850,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.0.5.5",
+    "version": "0.9.0.0",
     "description": "By Shyro And Nalaxyzz",
     "author": "Nalaxyzz ",
     "websiteURL": "https://discord.gg/NwxKsXKpgQ",

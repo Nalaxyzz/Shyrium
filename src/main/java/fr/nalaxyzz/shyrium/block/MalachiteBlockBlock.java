@@ -27,7 +27,7 @@ public class MalachiteBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public MalachiteBlockBlock(ShyriumModElements instance) {
-		super(instance, 4);
+		super(instance, 6);
 	}
 
 	@Override

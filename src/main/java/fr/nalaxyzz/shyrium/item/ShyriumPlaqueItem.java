@@ -17,7 +17,7 @@ public class ShyriumPlaqueItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public ShyriumPlaqueItem(ShyriumModElements instance) {
-		super(instance, 37);
+		super(instance, 15);
 	}
 
 	@Override

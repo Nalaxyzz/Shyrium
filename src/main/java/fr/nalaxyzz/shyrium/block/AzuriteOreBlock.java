@@ -48,7 +48,7 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public AzuriteOreBlock(ShyriumModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

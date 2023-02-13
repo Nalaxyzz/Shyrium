@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "1": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "2": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "3": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "4": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "5": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "6": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "7": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "8": {
+      "item": "shyrium:azurite_ingot"
+    }
+  },
+  "result": {
+    "item": "shyrium:azurite_block",
+    "count": 1
+  }
+}

@@ -40,6 +40,7 @@ import java.util.List;
 import java.util.Collections;
 
 import fr.nalaxyzz.shyrium.itemgroup.ShyriumtabItemGroup;
+import fr.nalaxyzz.shyrium.item.AgatiumrawItem;
 import fr.nalaxyzz.shyrium.ShyriumModElements;
 
 @ShyriumModElements.ModElement.Tag
@@ -48,7 +49,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public AgatiumOreBlock(ShyriumModElements instance) {
-		super(instance, 2);
+		super(instance, 4);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,8 +62,8 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("agatium_ore");
 		}
 
@@ -76,7 +77,7 @@ public class AgatiumOreBlock extends ShyriumModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(AgatiumrawItem.block));
 		}
 	}
 

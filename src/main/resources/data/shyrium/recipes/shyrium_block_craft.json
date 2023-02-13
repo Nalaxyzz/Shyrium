@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "1": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "2": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "3": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "4": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "5": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "6": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "7": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "8": {
+      "item": "shyrium:shyrium_ingot"
+    }
+  },
+  "result": {
+    "item": "shyrium:shyrium_block",
+    "count": 1
+  }
+}

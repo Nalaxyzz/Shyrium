@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shyrium:blocks/agatium_block_",
+    "up": "shyrium:blocks/agatium_block_",
+    "north": "shyrium:blocks/agatium_block_",
+    "east": "shyrium:blocks/agatium_block_",
+    "south": "shyrium:blocks/agatium_block_",
+    "west": "shyrium:blocks/agatium_block_",
+    "particle": "shyrium:blocks/agatium_block_"
+  }
+}

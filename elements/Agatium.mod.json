@@ -3,33 +3,25 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "shyriumultime3",
+    "textureHelmet": "agatium_helmet",
     "enableBody": true,
-    "textureBody": "shyriumultime2",
+    "textureBody": "agatium_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "shyriumultime1",
+    "textureLeggings": "agatium_leggings",
     "enableBoots": true,
-    "textureBoots": "shyriumultime",
+    "textureBoots": "agatium_boots",
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },
-    "armorTextureFile": "shyriumultimate__",
-    "helmetName": "Shyrium Ultime Helmet",
-    "bodyName": "Shyrium Ultime Body",
-    "leggingsName": "Shyrium Ultime Leggings",
-    "bootsName": "Shyrium Ultime Boots",
-    "helmetSpecialInfo": [
-      "Prévue V2.0.0.0 [Texture pas officiel]"
-    ],
-    "bodySpecialInfo": [
-      "Prévue V2.0.0.0 [Texture pas officiel]"
-    ],
-    "leggingsSpecialInfo": [
-      "Prévue V2.0.0.0 [Texture pas officiel]"
-    ],
-    "bootsSpecialInfo": [
-      "Prévue V2.0.0.0 [Texture pas officiel]"
-    ],
+    "armorTextureFile": "agatium_armor__",
+    "helmetName": "Agatium Helmet",
+    "bodyName": "Agatium Body",
+    "leggingsName": "Agatium Leggings",
+    "bootsName": "Agatium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
