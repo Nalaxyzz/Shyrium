@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "stone",
+    "texture": "agatium_ore",
     "textureTop": "agatium_ore",
-    "textureLeft": "stone",
-    "textureFront": "stone",
+    "textureLeft": "agatium_ore",
+    "textureFront": "agatium_ore",
     "textureRight": "agatium_ore",
     "textureBack": "agatium_ore",
     "renderType": 10,
@@ -133,9 +133,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 3,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 96
   }
 }

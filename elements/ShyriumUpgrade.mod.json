@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "shyrium_armor_head",
+    "textureHelmet": "shyrium_upgrade__helmet",
     "enableBody": true,
-    "textureBody": "shyrium_armor_body",
+    "textureBody": "shyrium_upgrade_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "shyrium_armor_leggings",
+    "textureLeggings": "shyrium_upgrade_leggings",
     "enableBoots": true,
-    "textureBoots": "shyrium_armor_boots",
+    "textureBoots": "shyrium_upgrade_boots",
     "onHelmetTick": {
       "name": "ShyriumUpgradeHelmetTickEvent"
     },
@@ -54,17 +54,21 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "maxDamage": 37,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 15,
     "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      }
+    ]
   }
 }

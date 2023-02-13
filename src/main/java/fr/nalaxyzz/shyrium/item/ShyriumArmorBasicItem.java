@@ -38,17 +38,17 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 33;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{4, 6, 8, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 10;
 			}
 
 			@Override
@@ -58,7 +58,7 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(ShyriumIngotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -69,7 +69,7 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 
 			@Override
