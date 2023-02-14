@@ -1,14 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01"
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "0": {
+    "1": {
+      "item": "shyrium:agatium_ingot"
+    },
+    "3": {
       "item": "shyrium:hammer"
     },
-    "1": {
+    "4": {
       "item": "shyrium:shyrium_ingot"
+    },
+    "5": {
+      "item": "shyrium:azurite_ingot"
+    },
+    "7": {
+      "item": "shyrium:voidium_ingot"
     }
   },
   "result": {

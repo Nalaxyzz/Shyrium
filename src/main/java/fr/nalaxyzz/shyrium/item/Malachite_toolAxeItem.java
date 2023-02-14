@@ -29,19 +29,19 @@ public class Malachite_toolAxeItem extends ShyriumModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 4.5f;
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 1.9999999999999996f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 6;
 			}
 
 			public Ingredient getRepairMaterial() {

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "1": {
+      "item": "shyrium:shyrium_armor_basic_boots"
+    },
+    "2": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "3": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "5": {
+      "item": "shyrium:shyrium_plaque"
+    }
+  },
+  "result": {
+    "item": "shyrium:shyrium_upgrade_boots",
+    "count": 1
+  }
+}

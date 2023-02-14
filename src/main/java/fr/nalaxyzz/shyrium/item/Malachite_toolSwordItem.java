@@ -25,23 +25,23 @@ public class Malachite_toolSwordItem extends ShyriumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 500;
+				return 250;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 4.5f;
 			}
 
 			public float getAttackDamage() {
-				return 5.5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 6;
 			}
 
 			public Ingredient getRepairMaterial() {

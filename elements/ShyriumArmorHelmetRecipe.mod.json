@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumArmorBasic.helmet"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:AgatiumIngot"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:Hammer"
-      },
-      {
-        "value": "CUSTOM:ShyriumIngot"
-      },
-      {
-        "value": "CUSTOM:AzuriteIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:VoidiumIngot"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyriumPlaque"
+      "value": "CUSTOM:ShyriumUpgrade.helmet"
     },
-    "name": "shyrium_plaque_craft",
-    "namespace": "minecraft"
+    "name": "shyrium_armor_helmet_recipe",
+    "namespace": "mod"
   }
 }

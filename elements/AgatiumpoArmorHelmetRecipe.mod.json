@@ -10,6 +10,18 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:AgatiumIngot"
+      },
+      {
+        "value": "CUSTOM:AgatiumIngot"
+      },
+      {
+        "value": "CUSTOM:AgatiumIngot"
+      },
+      {
+        "value": "CUSTOM:AgatiumIngot"
+      },
+      {
         "value": ""
       },
       {
@@ -19,28 +31,16 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Hammer"
-      },
-      {
-        "value": "CUSTOM:ShyriumIngot"
-      },
-      {
-        "value": "CUSTOM:AzuriteIngot"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:VoidiumIngot"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyriumPlaque"
+      "value": "CUSTOM:Agatium.helmet"
     },
-    "name": "shyrium_plaque_craft",
-    "namespace": "minecraft"
+    "name": "agatiumpo_armor_helmet_recipe",
+    "namespace": "mod"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:agatium_ingot"
+    },
+    "1": {
+      "item": "shyrium:agatium_ingot"
+    },
+    "2": {
+      "item": "shyrium:agatium_ingot"
+    },
+    "3": {
+      "item": "shyrium:agatium_ingot"
+    },
+    "5": {
+      "item": "shyrium:agatium_ingot"
+    }
+  },
+  "result": {
+    "item": "shyrium:agatium_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "2": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "3": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "4": {
+      "item": "shyrium:shyrium_armor_basic_chestplate"
+    },
+    "5": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "6": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "7": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "8": {
+      "item": "shyrium:shyrium_plaque"
+    }
+  },
+  "result": {
+    "item": "shyrium:shyrium_upgrade_chestplate",
+    "count": 1
+  }
+}

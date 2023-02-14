@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ShyriumArmorBasic.legs"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Hammer"
+      "value": "CUSTOM:ShyriumUpgrade.legs"
     },
-    "name": "hammer_craft",
+    "name": "shyrium_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

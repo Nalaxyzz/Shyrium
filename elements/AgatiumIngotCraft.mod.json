@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Agatiumnugget"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Agatiumnugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Hammer"
+      "value": "CUSTOM:AgatiumIngot"
     },
-    "name": "hammer_craft",
+    "name": "agatium_ingot_craft",
     "namespace": "mod"
   }
 }

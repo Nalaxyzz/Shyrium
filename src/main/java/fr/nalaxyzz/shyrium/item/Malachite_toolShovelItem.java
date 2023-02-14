@@ -25,11 +25,11 @@ public class Malachite_toolShovelItem extends ShyriumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 500;
+				return 250;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 4.5f;
 			}
 
 			public float getAttackDamage() {
@@ -37,11 +37,11 @@ public class Malachite_toolShovelItem extends ShyriumModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 6;
 			}
 
 			public Ingredient getRepairMaterial() {

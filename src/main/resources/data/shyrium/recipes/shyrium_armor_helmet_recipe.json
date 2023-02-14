@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "1": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "2": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "3": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "4": {
+      "item": "shyrium:shyrium_armor_basic_helmet"
+    },
+    "5": {
+      "item": "shyrium:shyrium_plaque"
+    }
+  },
+  "result": {
+    "item": "shyrium:shyrium_upgrade_helmet",
+    "count": 1
+  }
+}

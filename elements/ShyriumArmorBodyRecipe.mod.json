@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:VoidiumIngot"
-      },
-      {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ShyriumArmorBasic.body"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ShyriumPlaque"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
+      },
+      {
+        "value": "CUSTOM:ShyriumPlaque"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Hammer"
+      "value": "CUSTOM:ShyriumUpgrade.body"
     },
-    "name": "hammer_craft",
+    "name": "shyrium_armor_body_recipe",
     "namespace": "mod"
   }
 }

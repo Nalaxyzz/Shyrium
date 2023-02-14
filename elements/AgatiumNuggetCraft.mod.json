@@ -5,10 +5,19 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
       {
         "value": ""
       },
@@ -19,28 +28,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Hammer"
-      },
-      {
-        "value": "CUSTOM:ShyriumIngot"
-      },
-      {
-        "value": "CUSTOM:AzuriteIngot"
-      },
-      {
         "value": ""
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyriumPlaque"
+      "value": "CUSTOM:Agatiumnugget"
     },
-    "name": "shyrium_plaque_craft",
+    "name": "agatium_nugget_craft",
     "namespace": "minecraft"
   }
 }

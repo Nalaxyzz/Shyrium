@@ -13,34 +13,34 @@
         "value": ""
       },
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:AgatiumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Hammer"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": "CUSTOM:ShyriumIngot"
-      },
-      {
-        "value": "CUSTOM:AzuriteIngot"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:AgatiumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyriumPlaque"
+      "value": "CUSTOM:Agatium.boots"
     },
-    "name": "shyrium_plaque_craft",
-    "namespace": "minecraft"
+    "name": "agatiumpo_armor_boots_recipe",
+    "namespace": "mod"
   }
 }

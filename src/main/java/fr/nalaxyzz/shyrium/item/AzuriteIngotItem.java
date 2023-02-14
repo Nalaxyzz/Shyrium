@@ -27,7 +27,7 @@ public class AzuriteIngotItem extends ShyriumModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("azurite_ingot");
 		}
 

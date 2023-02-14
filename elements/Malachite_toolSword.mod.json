@@ -11,12 +11,12 @@
       "value": "CUSTOM:Shyriumtab"
     },
     "toolType": "Sword",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 1,
+    "efficiency": 4.5,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 7.5,
-    "usageCount": 500,
+    "enchantability": 6,
+    "damageVsEntity": 5.0,
+    "usageCount": 250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

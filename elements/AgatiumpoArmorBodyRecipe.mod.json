@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:AgatiumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Hammer"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": "CUSTOM:ShyriumIngot"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": "CUSTOM:AzuriteIngot"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": "CUSTOM:VoidiumIngot"
+        "value": "CUSTOM:AgatiumIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:AgatiumIngot"
+      },
+      {
+        "value": "CUSTOM:AgatiumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyriumPlaque"
+      "value": "CUSTOM:Agatium.body"
     },
-    "name": "shyrium_plaque_craft",
-    "namespace": "minecraft"
+    "name": "agatiumpo_armor_body_recipe",
+    "namespace": "mod"
   }
 }

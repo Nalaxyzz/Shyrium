@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "1": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "2": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "3": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "4": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "5": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "6": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "7": {
+      "item": "shyrium:agatiumnugget"
+    },
+    "8": {
+      "item": "shyrium:agatiumnugget"
+    }
+  },
+  "result": {
+    "item": "shyrium:agatium_ingot",
+    "count": 1
+  }
+}

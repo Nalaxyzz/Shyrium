@@ -6,7 +6,7 @@
     "texture": "azurite_ingot",
     "customModelName": "Normal",
     "name": "Azurite Ingot",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },

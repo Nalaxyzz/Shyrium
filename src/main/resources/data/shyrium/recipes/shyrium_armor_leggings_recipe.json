@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "1": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "2": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "3": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "4": {
+      "item": "shyrium:shyrium_armor_basic_leggings"
+    },
+    "5": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "6": {
+      "item": "shyrium:shyrium_plaque"
+    },
+    "8": {
+      "item": "shyrium:shyrium_plaque"
+    }
+  },
+  "result": {
+    "item": "shyrium:shyrium_upgrade_leggings",
+    "count": 1
+  }
+}

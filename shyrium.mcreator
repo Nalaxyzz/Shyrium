@@ -720,6 +720,132 @@
       "locked_code": false,
       "registry_name": "hammer_craft",
       "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumNuggetCraft",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_nugget_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumIngotCraft",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatium_ingot_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumpoArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumpo_armor_helmet_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumpoArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumpo_armor_body_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumpoArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumpo_armor_leggings_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "AgatiumpoArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agatiumpo_armor_boots_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_helmet_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_body_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_leggings_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ShyriumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_boots_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shyrium_Armor_CraftArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_craft_armor_helmet_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shyrium_Armor_CraftArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_craft_armor_body_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shyrium_Armor_CraftArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_craft_armor_leggings_recipe",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shyrium_Armor_CraftArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_craft_armor_boots_recipe",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -760,11 +886,11 @@
       "item.shyrium.agatium_chestplate": "Agatium Body",
       "block.shyrium.voidium_ore": "Voidium Ore",
       "item.shyrium.voidium_ingot": "Voidium Ingot",
-      "block.shyrium.shyrium_ore_nether": "Shyrium Ore Nether",
+      "block.shyrium.shyrium_ore_nether": "Shyrium Ore ",
       "item.shyrium.agatiumnugget": "Agatium Nugget",
       "item.shyrium.agatium_helmet": "Agatium Helmet",
       "item.shyrium.shyrium_armor_basic_helmet": "Shyrium Basic Helmet",
-      "block.shyrium.shyriumore": "Shyriumore",
+      "block.shyrium.shyriumore": "Shyrium Ore",
       "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
       "item.shyrium.malachitegem": "Malachite gem",
       "item.shyrium.shyrium_armor_basic_chestplate": "Shyrium Basic Body",
@@ -850,7 +976,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.9.0.0",
+    "version": "0.9.5.0",
     "description": "By Shyro And Nalaxyzz",
     "author": "Nalaxyzz ",
     "websiteURL": "https://discord.gg/NwxKsXKpgQ",

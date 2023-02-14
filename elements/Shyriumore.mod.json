@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Shyriumore",
+    "name": "Shyrium Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -42,13 +42,13 @@
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
