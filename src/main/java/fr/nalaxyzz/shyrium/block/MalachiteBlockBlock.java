@@ -27,7 +27,7 @@ public class MalachiteBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public MalachiteBlockBlock(ShyriumModElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class MalachiteBlockBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.LODESTONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.LODESTONE).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("malachite_block");
 		}

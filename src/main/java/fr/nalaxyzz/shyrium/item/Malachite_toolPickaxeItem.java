@@ -18,7 +18,7 @@ public class Malachite_toolPickaxeItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public Malachite_toolPickaxeItem(ShyriumModElements instance) {
-		super(instance, 17);
+		super(instance, 22);
 	}
 
 	@Override

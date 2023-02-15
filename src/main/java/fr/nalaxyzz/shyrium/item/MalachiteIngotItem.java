@@ -17,7 +17,7 @@ public class MalachiteIngotItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public MalachiteIngotItem(ShyriumModElements instance) {
-		super(instance, 11);
+		super(instance, 15);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class MalachiteIngotItem extends ShyriumModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(ShyriumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("malachite_ingot");
 		}
 

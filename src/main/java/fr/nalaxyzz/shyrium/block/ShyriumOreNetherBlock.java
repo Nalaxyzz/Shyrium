@@ -48,7 +48,7 @@ public class ShyriumOreNetherBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public ShyriumOreNetherBlock(ShyriumModElements instance) {
-		super(instance, 54);
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,7 +61,7 @@ public class ShyriumOreNetherBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(3.7f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("shyrium_ore_nether");
 		}
@@ -117,7 +117,7 @@ public class ShyriumOreNetherBlock extends ShyriumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(92)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(92)
 					.square().func_242731_b(6);
 			event.getRegistry().register(feature.setRegistryName("shyrium_ore_nether"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:shyrium_ore_nether"), configuredFeature);

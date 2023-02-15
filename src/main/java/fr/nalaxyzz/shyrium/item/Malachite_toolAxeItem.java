@@ -18,7 +18,7 @@ public class Malachite_toolAxeItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public Malachite_toolAxeItem(ShyriumModElements instance) {
-		super(instance, 18);
+		super(instance, 23);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class Malachite_toolAxeItem extends ShyriumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1.9999999999999996f;
+				return 5.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class Malachite_toolAxeItem extends ShyriumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
+		}, 1, -3.2000000000000001f, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 		}.setRegistryName("malachite_tool_axe"));
 	}
 }

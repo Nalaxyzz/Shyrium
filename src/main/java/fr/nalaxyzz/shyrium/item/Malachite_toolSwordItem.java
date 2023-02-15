@@ -18,7 +18,7 @@ public class Malachite_toolSwordItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public Malachite_toolSwordItem(ShyriumModElements instance) {
-		super(instance, 19);
+		super(instance, 24);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class Malachite_toolSwordItem extends ShyriumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class Malachite_toolSwordItem extends ShyriumModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 6;
+				return 4;
 			}
 
 			public Ingredient getRepairMaterial() {

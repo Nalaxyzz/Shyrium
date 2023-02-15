@@ -61,8 +61,8 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1.9999999999999998f, 10f)
+					.setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("azurite_ore");
 		}
 
@@ -117,7 +117,7 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(96)
-					.square().func_242731_b(7);
+					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("azurite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:azurite_ore"), configuredFeature);
 		}

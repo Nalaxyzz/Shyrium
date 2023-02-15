@@ -18,7 +18,7 @@ public class Malachite_toolHoeItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public Malachite_toolHoeItem(ShyriumModElements instance) {
-		super(instance, 21);
+		super(instance, 26);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class Malachite_toolHoeItem extends ShyriumModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4.5f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {

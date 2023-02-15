@@ -6,7 +6,7 @@
     "texture": "malachite_ingot",
     "customModelName": "Normal",
     "name": "Malachite Ingot",
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },

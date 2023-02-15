@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Agatium_toolShovel"
+      "value": "CUSTOM:AgatiumShovel"
     },
     "name": "agatium_tool_shovel_recipe",
     "namespace": "mod"

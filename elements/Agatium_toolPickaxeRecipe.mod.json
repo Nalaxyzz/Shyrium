@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Agatium_toolPickaxe"
+      "value": "CUSTOM:AgatiumPickaxe"
     },
     "name": "agatium_tool_pickaxe_recipe",
     "namespace": "mod"

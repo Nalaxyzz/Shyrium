@@ -27,7 +27,7 @@ public class VoidiumBlockBlock extends ShyriumModElements.ModElement {
 	public static final Block block = null;
 
 	public VoidiumBlockBlock(ShyriumModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class VoidiumBlockBlock extends ShyriumModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("voidium_block");
 		}

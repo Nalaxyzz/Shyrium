@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Agatium_toolHoe"
+      "value": "CUSTOM:AgatiumHoe"
     },
     "name": "agatium_tool_hoe_recipe",
     "namespace": "mod"

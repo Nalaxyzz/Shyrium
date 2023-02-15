@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "shyrium:blocks/shyrium_ore",
-    "up": "shyrium:blocks/shyrium_ore",
-    "north": "shyrium:blocks/shyrium_ore",
-    "east": "shyrium:blocks/shyrium_ore",
-    "south": "shyrium:blocks/shyrium_ore",
-    "west": "shyrium:blocks/shyrium_ore",
-    "particle": "shyrium:blocks/shyrium_ore"
+    "down": "shyrium:blocks/shyrium_ore_v1",
+    "up": "shyrium:blocks/shyrium_ore_v1",
+    "north": "shyrium:blocks/shyrium_ore_v1",
+    "east": "shyrium:blocks/shyrium_ore_v1",
+    "south": "shyrium:blocks/shyrium_ore_v1",
+    "west": "shyrium:blocks/shyrium_ore_v1",
+    "particle": "shyrium:blocks/shyrium_ore_v1"
   }
 }

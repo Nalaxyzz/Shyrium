@@ -30,7 +30,7 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public ShyriumArmorBasicItem(ShyriumModElements instance) {
-		super(instance, 23);
+		super(instance, 33);
 	}
 
 	@Override

@@ -12,7 +12,7 @@
     },
     "toolType": "Hoe",
     "harvestLevel": 1,
-    "efficiency": 4.5,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 6,
     "damageVsEntity": 2.0,
