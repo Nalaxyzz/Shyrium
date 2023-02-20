@@ -117,7 +117,7 @@ public class VoidiumOreBlock extends ShyriumModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(96)
-					.square().func_242731_b(6);
+					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("voidium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:voidium_ore"), configuredFeature);
 		}

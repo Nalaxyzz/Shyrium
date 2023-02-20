@@ -1,0 +1,44 @@
+{
+  "display": {
+    "background": "shyrium:textures/screens/shyrium__advancment_background.png",
+    "icon": {
+      "item": "shyrium:shyrium_ingot"
+    },
+    "title": {
+      "translate": "advancements.shyrium_ingoy.title"
+    },
+    "description": {
+      "translate": "advancements.shyrium_ingoy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shyrium_ingoy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "shyrium:shyrium_ingot",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "minecraft:shyrium_plaque_craft",
+      "shyrium:shyrium_armor_craft_armor_helmet_recipe",
+      "shyrium:shyrium_armor_craft_armor_body_recipe",
+      "shyrium:shyrium_armor_craft_armor_leggings_recipe",
+      "shyrium:shyrium_armor_craft_armor_boots_recipe"
+    ]
+  }
+}

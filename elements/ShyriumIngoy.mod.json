@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Shyrium Ingot",
+    "achievementDescription": "Shyrium Ingot !!!!",
+    "achievementIcon": {
+      "value": "CUSTOM:ShyriumIngot"
+    },
+    "background": "shyrium__advancment_background.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "ShyriumPlaqueCraft",
+      "Shyrium_Armor_CraftArmorHelmetRecipe",
+      "Shyrium_Armor_CraftArmorBodyRecipe",
+      "Shyrium_Armor_CraftArmorLeggingsRecipe",
+      "Shyrium_Armor_CraftArmorBootsRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"48\" y=\"23\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ShyriumIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

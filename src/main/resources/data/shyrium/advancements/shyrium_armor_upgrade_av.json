@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "shyrium:shyrium_upgrade_chestplate"
+    },
+    "title": {
+      "translate": "advancements.shyrium_armor_upgrade_av.title"
+    },
+    "description": {
+      "translate": "advancements.shyrium_armor_upgrade_av.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shyrium_armor_upgrade_av": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "shyrium:shyrium_plaque_av"
+}

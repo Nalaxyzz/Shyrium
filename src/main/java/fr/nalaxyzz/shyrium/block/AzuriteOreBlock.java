@@ -116,7 +116,7 @@ public class AzuriteOreBlock extends ShyriumModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(96)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(96)
 					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("azurite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("shyrium:azurite_ore"), configuredFeature);
