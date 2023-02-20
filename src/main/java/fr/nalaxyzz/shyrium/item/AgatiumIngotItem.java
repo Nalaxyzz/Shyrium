@@ -17,7 +17,7 @@ public class AgatiumIngotItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public AgatiumIngotItem(ShyriumModElements instance) {
-		super(instance, 28);
+		super(instance, 18);
 	}
 
 	@Override

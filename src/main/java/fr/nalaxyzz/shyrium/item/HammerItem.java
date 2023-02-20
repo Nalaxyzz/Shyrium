@@ -17,7 +17,7 @@ public class HammerItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public HammerItem(ShyriumModElements instance) {
-		super(instance, 26);
+		super(instance, 36);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class AgatiumItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public AgatiumItem(ShyriumModElements instance) {
-		super(instance, 24);
+		super(instance, 33);
 	}
 
 	@Override

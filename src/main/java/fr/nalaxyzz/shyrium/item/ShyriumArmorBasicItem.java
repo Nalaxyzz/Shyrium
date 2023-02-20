@@ -30,7 +30,7 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public ShyriumArmorBasicItem(ShyriumModElements instance) {
-		super(instance, 33);
+		super(instance, 32);
 	}
 
 	@Override
@@ -80,25 +80,25 @@ public class ShyriumArmorBasicItem extends ShyriumModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor_.png_1_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_basic_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor_.png_1_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_basic_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor_.png_1_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_basic_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ShyriumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "shyrium:textures/models/armor/shyriumarmor___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "shyrium:textures/models/armor/shyriumarmor_.png_1_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("shyrium_armor_basic_boots"));
 	}

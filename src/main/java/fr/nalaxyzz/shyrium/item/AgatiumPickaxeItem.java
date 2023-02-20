@@ -18,7 +18,7 @@ public class AgatiumPickaxeItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public AgatiumPickaxeItem(ShyriumModElements instance) {
-		super(instance, 27);
+		super(instance, 26);
 	}
 
 	@Override

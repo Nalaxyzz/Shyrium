@@ -18,7 +18,7 @@ public class Malachite_toolHoeItem extends ShyriumModElements.ModElement {
 	public static final Item block = null;
 
 	public Malachite_toolHoeItem(ShyriumModElements instance) {
-		super(instance, 26);
+		super(instance, 25);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class MalachitearmorItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public MalachitearmorItem(ShyriumModElements instance) {
-		super(instance, 16);
+		super(instance, 34);
 	}
 
 	@Override

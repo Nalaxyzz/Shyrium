@@ -41,7 +41,7 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 	public static final Item boots = null;
 
 	public ShyriumUpgradeItem(ShyriumModElements instance) {
-		super(instance, 22);
+		super(instance, 31);
 	}
 
 	@Override
@@ -85,7 +85,7 @@ public class ShyriumUpgradeItem extends ShyriumModElements.ModElement {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ShyriumtabItemGroup.tab)) {

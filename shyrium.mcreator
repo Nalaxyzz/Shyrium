@@ -101,7 +101,7 @@
     {
       "name": "Malachitearmor",
       "type": "armor",
-      "sortid": 21,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachitearmor",
@@ -116,7 +116,7 @@
     {
       "name": "Malachite_toolPickaxe",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_pickaxe",
@@ -125,7 +125,7 @@
     {
       "name": "Malachite_toolAxe",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_axe",
@@ -134,7 +134,7 @@
     {
       "name": "Malachite_toolSword",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_sword",
@@ -143,7 +143,7 @@
     {
       "name": "Malachite_toolShovel",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_shovel",
@@ -152,7 +152,7 @@
     {
       "name": "Malachite_toolHoe",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "malachite_tool_hoe",
@@ -278,7 +278,7 @@
     {
       "name": "ShyriumUpgrade",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_upgrade",
@@ -302,7 +302,7 @@
     {
       "name": "ShyriumArmorBasic",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shyrium_armor_basic",
@@ -484,7 +484,7 @@
     {
       "name": "Agatium",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium",
@@ -850,7 +850,7 @@
     {
       "name": "AgatiumPickaxe",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_pickaxe",
@@ -859,7 +859,7 @@
     {
       "name": "AgatiumSword",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_sword",
@@ -868,7 +868,7 @@
     {
       "name": "AgatiumAxe",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_axe",
@@ -877,7 +877,7 @@
     {
       "name": "AgatiumShovel",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_shovel",
@@ -886,7 +886,7 @@
     {
       "name": "AgatiumHoe",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agatium_hoe",
@@ -899,8 +899,8 @@
     "en_us": {
       "block.shyrium.agatium_block": "Agatium Block",
       "block.shyrium.agatium_ore": "Agatium Ore",
-      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "block.shyrium.shyrium_block": "Shyrium Block",
+      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
       "item.shyrium.malachite_tool_hoe": "Malachite Hoe",
@@ -919,8 +919,8 @@
       "item.shyrium.agatium_shovel": "Agatium Shovel",
       "item.shyrium.agatium_boots": "Agatium Boots",
       "block.shyrium.azurite_ore": "Azurite Ore",
-      "item.shyrium.shyrium_core": "Shyrium Core",
       "item.shyrium.agatium_axe": "Agatium Axe",
+      "item.shyrium.shyrium_core": "Shyrium Core",
       "item.shyrium.malachite_tool_axe": "Malachite  Axe",
       "item.shyrium.agatium_sword": "Agatium Sword",
       "item.shyrium.shyrium_armor_basic_boots": "Shyrium Basic Boots",
@@ -950,8 +950,8 @@
     "fr_fr": {
       "block.shyrium.agatium_block": "Agatium Block",
       "block.shyrium.agatium_ore": "Agatium Ore",
-      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "block.shyrium.shyrium_block": "Shyrium Block",
+      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
       "item.shyrium.malachite_tool_pickaxe": "Malachite_tool Pickaxe",
       "item.shyrium.malachite_tool_hoe": "Malachite_tool Hoe",
@@ -970,8 +970,8 @@
       "item.shyrium.agatium_shovel": "Agatium Shovel",
       "item.shyrium.agatium_boots": "Agatium Boots",
       "block.shyrium.azurite_ore": "Azurite Ore",
-      "item.shyrium.shyrium_core": "Shyrium Core",
       "item.shyrium.agatium_axe": "Agatium Axe",
+      "item.shyrium.shyrium_core": "Shyrium Core",
       "item.shyrium.malachite_tool_axe": "Malachite_tool Axe",
       "item.shyrium.agatium_sword": "Agatium Sword",
       "item.shyrium.shyrium_armor_basic_boots": "Shyrium Basic Boots",
@@ -1031,7 +1031,7 @@
   "workspaceSettings": {
     "modid": "shyrium",
     "modName": "Shyrium",
-    "version": "0.9.5.0",
+    "version": "1.0.0.0",
     "description": "By Shyro And Nalaxyzz",
     "author": "Nalaxyzz ",
     "websiteURL": "https://discord.gg/NwxKsXKpgQ",
