@@ -99,21 +99,6 @@
       "path": "~/Craft"
     },
     {
-      "name": "Malachitearmor",
-      "type": "armor",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachitearmor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/Armor"
-    },
-    {
       "name": "Malachite_toolPickaxe",
       "type": "tool",
       "sortid": 21,
@@ -961,6 +946,40 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "ShyriumArmorBasicHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_basic_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ShyriumArmorBasicBootsTickEvent",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrium_armor_basic_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -969,8 +988,8 @@
     "en_us": {
       "block.shyrium.agatium_block": "Agatium Block",
       "block.shyrium.agatium_ore": "Agatium Ore",
-      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "block.shyrium.shyrium_block": "Shyrium Block",
+      "item.shyrium.agatium_leggings": "Agatium Leggings",
       "item.shyrium.malachite_ingot": "Malachite Ingot",
       "advancements.shyrium_ingoy.title": "Shyrium Ingot",
       "item.shyrium.malachite_tool_pickaxe": "Malachite Pickaxe",
@@ -980,12 +999,10 @@
       "item.shyrium.agatium_ingot": "Agatium Ingot",
       "item.shyrium.shyrium_armor_basic_leggings": "Shyrium Basic Leggings",
       "advancements.shyrium_ingoy.descr": "Shyrium Ingot !!!!",
-      "item.shyrium.malachitearmor_chestplate": "Malachite Body",
       "item.shyrium.shyrium_upgrade_chestplate": "Shyrium Upgrade Body",
       "item.shyrium.hammer": "Hammer",
       "itemGroup.tabshyriumtab": "Shyrium",
       "advancements.shyrium_plaque_av.descr": "Shyrium Plaque ",
-      "item.shyrium.malachitearmor_leggings": "Malachite Leggings",
       "item.shyrium.shyrium_ingot": "Shyrium Ingot",
       "item.shyrium.shyrium_upgrade_helmet": "Shyrium Upgrade Helmet",
       "item.shyrium.shyrium_upgrade_leggings": "Shyrium Upgrade Leggings",
@@ -1008,7 +1025,6 @@
       "item.shyrium.agatium_hoe": "Agatium Hoe",
       "item.shyrium.malachite_tool_shovel": "Malachite Shovel",
       "advancements.shyrium_armor_av.title": "Shyrium Armor",
-      "item.shyrium.malachitearmor_boots": "Malachite Boots",
       "item.shyrium.agatium_chestplate": "Agatium Body",
       "block.shyrium.voidium_ore": "Voidium Ore",
       "item.shyrium.agatium_pickaxe": "Agatium Pickaxe",
@@ -1019,8 +1035,7 @@
       "item.shyrium.agatium_helmet": "Agatium Helmet",
       "item.shyrium.shyrium_armor_basic_helmet": "Shyrium Basic Helmet",
       "block.shyrium.shyriumore": "Shyrium Ore",
-      "item.shyrium.malachitearmor_helmet": "Malachite Helmet",
-      "item.shyrium.malachitegem": "Malachite gem",
+      "item.shyrium.malachitegem": "Malachite Raw",
       "item.shyrium.agatiumraw": "Agatium Raw",
       "item.shyrium.shyrium_armor_basic_chestplate": "Shyrium Basic Body",
       "item.shyrium.azurite_ingot": "Azurite Ingot"
@@ -1028,8 +1043,8 @@
     "fr_fr": {
       "block.shyrium.agatium_block": "Bloc D\u0027Agatium",
       "block.shyrium.agatium_ore": "Minerais D\u0027Agatium ",
-      "block.shyrium.shyrium_block": "Bloc de Shyrium ",
       "item.shyrium.agatium_leggings": "Jambière en Agatium ",
+      "block.shyrium.shyrium_block": "Bloc de Shyrium ",
       "item.shyrium.malachite_ingot": "L\u0027ingot de Malachite",
       "advancements.shyrium_ingoy.title": "L\u0027ingot de Shyrium",
       "item.shyrium.malachite_tool_pickaxe": "Pioche en Malachite",
@@ -1039,12 +1054,10 @@
       "item.shyrium.agatium_ingot": "L\u0027ingot D\u0027Agatium ",
       "item.shyrium.shyrium_armor_basic_leggings": "Jambiere en Shyrium  ",
       "advancements.shyrium_ingoy.descr": "Shyrium Ingot !!!!",
-      "item.shyrium.malachitearmor_chestplate": "Plastron en Malachite ",
       "item.shyrium.shyrium_upgrade_chestplate": "Plastron en Shyrium Amélioré",
       "item.shyrium.hammer": "Marteau ",
       "itemGroup.tabshyriumtab": "Shyrium",
       "advancements.shyrium_plaque_av.descr": "Shyrium Plaque ",
-      "item.shyrium.malachitearmor_leggings": "Jambière en Malachite",
       "item.shyrium.shyrium_ingot": "L\u0027ingot de Shyrium ",
       "item.shyrium.shyrium_upgrade_helmet": "Casque en Shyrium Amélioré",
       "item.shyrium.shyrium_upgrade_leggings": "Jambière en Shyrium Amélioré",
@@ -1067,7 +1080,6 @@
       "item.shyrium.agatium_hoe": "Houe en Agatium ",
       "item.shyrium.malachite_tool_shovel": "Pelle en Malachite",
       "advancements.shyrium_armor_av.title": "Shyrium Armor ",
-      "item.shyrium.malachitearmor_boots": "Botte en Malachite ",
       "item.shyrium.agatium_chestplate": "Plastron en Agatium ",
       "block.shyrium.voidium_ore": "Minerais de Voidium",
       "item.shyrium.agatium_pickaxe": "Pioche en Agatium",
@@ -1078,7 +1090,6 @@
       "item.shyrium.agatium_helmet": "Casque en Agatium",
       "item.shyrium.shyrium_armor_basic_helmet": "Casque en Shyrium",
       "block.shyrium.shyriumore": "Minerais de shyrium Shyrium",
-      "item.shyrium.malachitearmor_helmet": "Casque en Malachite ",
       "item.shyrium.malachitegem": "Gem de Malachite ",
       "item.shyrium.agatiumraw": "Agatium Brut",
       "item.shyrium.shyrium_armor_basic_chestplate": "Plastron en Shyrium ",

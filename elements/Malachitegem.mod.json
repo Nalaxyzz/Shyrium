@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "raw_malachite",
+    "texture": "malachite_rawv1",
     "customModelName": "Normal",
-    "name": "Malachite gem",
+    "name": "Malachite Raw",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"

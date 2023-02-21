@@ -10,6 +10,12 @@
     "textureLeggings": "shyrium_armor1",
     "enableBoots": true,
     "textureBoots": "shyrium_armor2",
+    "onHelmetTick": {
+      "name": "ShyriumArmorBasicHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ShyriumArmorBasicBootsTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:Shyriumtab"
     },
